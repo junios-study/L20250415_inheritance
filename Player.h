@@ -1,6 +1,7 @@
 #pragma once
 
 //Player has a Gold.
+
 class APlayer
 {
 public:

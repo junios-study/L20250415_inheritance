@@ -1,6 +1,7 @@
 #pragma once
 
-//#include "Player.h"
+#include <vector>
+
 class APlayer;
 class ASlime;
 class AGoblin;
@@ -12,10 +13,10 @@ class ABoar;
 class UWorld
 {
 public:
-	APlayer* Player;
-	ASlime* Slime;
-	AGoblin* Goblin;
-	ABoar* Boar;
+	std::vector<APlayer*> Player;
+	std::vector<ASlime*> Slime;
+	std::vector<AGoblin*> Goblin;
+	std::vector<ABoar*> Boar;
 
 public:
 	void Initialize();

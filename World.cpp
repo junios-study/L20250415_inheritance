@@ -7,8 +7,4 @@
 
 void UWorld::Initialize()
 {
-	Player = new APlayer();
-	Goblin = new AGoblin();
-	Slime = new ASlime();
-	Boar = new ABoar();
 }

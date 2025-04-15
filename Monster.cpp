@@ -1,5 +1,7 @@
 #include "Monster.h"
 
+
+//Goblin is a Monster.
 void AMonster::Attack()
 {
 
